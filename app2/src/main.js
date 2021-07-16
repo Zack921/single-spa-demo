@@ -24,16 +24,16 @@ const vueLifecycle = singleSpaVue({
 })
 
 export function bootstrap (props) {
-  console.log('app1 bootstrap')
+  console.log('app2 bootstrap')
   return vueLifecycle.bootstrap(() => {})
 }
 
 export function mount (props) {
-  console.log('app1 mount')
+  console.log('app2 mount')
   return vueLifecycle.mount(() => {})
 }
 
 export function unmount (props) {
-  console.log('app1 unmount')
+  console.log('app2 unmount')
   return vueLifecycle.unmount(() => {})
 }
